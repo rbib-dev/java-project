@@ -178,8 +178,8 @@ The `Jenkinsfile` defines a complete CI/CD pipeline with the following stages:
    - JUnit
 
 2. Configure tools in Jenkins:
-   - Maven 3.8.6
-   - JDK 11
+   - Maven 3.8.6 (or higher)
+   - JDK 17
 
 3. Create a new Pipeline job and point it to this repository
 

@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out source code...'
-                checkout scm
+                git branch: 'main', url: 'https://github.com/rbib-dev/java-project.git'
             }
         }
         
